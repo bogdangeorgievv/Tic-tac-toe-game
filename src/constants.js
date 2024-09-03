@@ -1,0 +1,8 @@
+const CONSTANTS = {
+    LAST_TILE: 1,
+    LAST_THREE_TILES: 3,
+    TIMEOUT_HIDE: 2000,
+    TIMEOUT_APPEAR: 300
+}
+
+export default CONSTANTS;
