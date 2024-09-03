@@ -1,0 +1,19 @@
+/* Color variables */
+
+:root {
+    --yellow: #decb7f;
+    --background-color: #609ea0;
+    --tile-hover-color: #8ad2e6;
+    --o-symbol-color: #1d676c;
+    --white: #ffffff;
+    --background-color-dark: rgba(0,0,0,0.4); 
+}
+
+/* Font variables */
+
+:root {
+    --small: 14px;
+    --medium: 20px;
+    --large: 40px;
+    --x-large: 70px;
+}
