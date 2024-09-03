@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="game-heading">
+        <h1 class="game-name">TIC TAC TOE</h1>
+    </div>
+
+    <div class="scoreboard-wrapper">
+        <div class="score-column">
+            <p class="player-one-symbol">X</p>
+            <div class="score-and-turn">
+                <p class="player-one-dot">.</p>
+                <p class="player-score" id="playerOne">0</p>
+            </div>
+        </div>
+
+        <p class="score-separator">:</p>
+
+        <div class="score-column">
+            <p class="player-two-symbol">O</p>
+            <div class="score-and-turn">
+                <p class="player-two-dot">.</p>
+                <p class="player-score" id="playerTwo">0</p>
+            </div>
+        </div>
+    </div>
+
+    <table class="game-board">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="reset-game">
+        <button id="gameResetBtn">RESET GAME</button>
+    </div>
+    
+    <div class="modal-window">
+        <h3 class="modal-message"></h3>
+    </div>
+
+    <script type="module" src="./src/game-board.js"></script>
+</body>
+</html>
